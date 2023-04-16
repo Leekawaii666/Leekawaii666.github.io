@@ -60,7 +60,7 @@ function linkup(val, sites) {
 		url = `http://${website+domain}`;
 		window.open(url, "_self");
 	} else {
-		window.open(`https://duckduckgo.com/?q=${val}`, "_self");
+		window.open(`https://google.com/?q=${val}`, "_self");
 	}
 }
 
